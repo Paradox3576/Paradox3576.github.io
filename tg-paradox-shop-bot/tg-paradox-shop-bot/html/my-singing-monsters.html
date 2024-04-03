@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Web App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/modal-window.css">
+</head>
+
+<body class="text-light m-auto" style="background-color: rgb(44, 41, 41); width: 95%;">
+    <nav class="navbar navbar-light mx">
+        <div class="container-fluid justify-content-center">
+            <img src="../images/main/logo.PNG" width="200px" alt="">
+        </div>
+    </nav>
+
+    <h1 class="mb-2 mt-3" style="font-size: 40px;">My Singing Monsters</h1>
+    <div class="links mb-4">
+        <a href="#gems" type="button" class="btn rounded-pill text-light bg-dark p-3">Gems</a>
+    </div>
+
+    <h3 class="mb-3 mt-3" id="gems">Gems</h3>
+    <div class="row gems ps-1">
+
+    </div>
+
+    <!-- Modal window -->
+    <div id="bottomModal" class="bottom-modal" onclick="closeModal()">
+        <div class="modal-content ">
+            <img id="modalImg" class="modal-img">
+            <p id="modalPrice" class="text-start card-title fs-3"></p>
+            <h2 id="modalTitle" class="text-start"></h2>
+            <br>
+            <p class="text-start card-title fs-3 fs-bold">Описание</p>
+            <pre id="descriptions" class="text-start ps-2"></pre>
+            <button class="btn btn-success w-100" onclick="sendData()">Купить</button>
+        </div>
+    </div>
+
+    <script src="../js/modal-window.js"></script>
+    <script src="../js/append-card.js"></script>
+    <script>
+        const gems = [105, 220, 560, 1200, 3000];
+        const price = [449, 949, 1799, 3999, 7999];
+        let i = 0;
+        gems.forEach(() => {
+            appendCard(`../images/games/my-singing-monsters/gems/${gems[i]}.jpeg`, price[i], `${gems[i]} Гемов`, ["gems"]);
+            i += 1;
+        });
+
+
+        [...document.querySelector(".gems").querySelectorAll(".card")].forEach(function (card) {
+            card.addEventListener('click', function (event) {
+                showModal(card, "❇️ Быстрое выполнение заказа\n❇️ От вас потребуется только почта и пароль от My Singing Monsters,через другие способы входы не смогу\n❇️ Работает для всех аккаунтов");
+            });
+        });
+    </script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="../js/tg-send.js"></script>
+</body>
