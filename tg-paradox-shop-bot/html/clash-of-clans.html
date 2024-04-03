@@ -16,20 +16,14 @@
     </div>
   </nav>
 
-  <h1 class="mb-2 mt-3" style="font-size: 40px;">Clash of Clans</h1>
+  <h1 class="mb-2 mt-3" style="font-size: 40px;">Brawl Stars</h1>
   <div class="links mb-4">
     <a href="#promotions" type="button" class="btn rounded-pill text-light bg-dark p-3">Акции</a>
-    <a href="#passes" type="button" class="btn rounded-pill text-light bg-dark p-3">Пассы</a>
     <a href="#crystals" type="button" class="btn rounded-pill text-light bg-dark p-3">Кристаллы</a>
   </div>
 
   <h3 class="mb-3 mt-3" id="promotions">Акции</h3>
   <div class="row promotions ps-1">
-
-  </div>
-
-  <h3 class="mb-3 mt-3" id="passes">Пассы</h3>
-  <div class="row passes ps-1">
 
   </div>
 
@@ -67,7 +61,7 @@
     price = [800, 549];
     i = 0;
     name.forEach(() => {
-      appendCard(`../images/games/clash-of-clans/passes/${imageName[i]}.jpeg`, price[i], name[i], ["passes"]);
+      appendCard(`../images/games/clash-of-clans/promotions/${imageName[i]}.jpeg`, price[i], name[i], ["promotions"]);
       i += 1;
     });
 
@@ -77,14 +71,14 @@
       });
     });
 
-    [...document.querySelector(".passes").querySelectorAll(".card")].forEach(function (card) {
+    [...document.querySelector(".promotions").querySelectorAll(".card")].forEach(function (card) {
       card.addEventListener('click', function (event) {
         showModal(card, "❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Работает для всех аккаунтов");
       });
     });
+
+    function sendData() {
+      alert(JSON.stringify(modalData));
+    }
   </script>
-    <script src="../js/create-promotion.js"></script>
-    <script src="../js/promotions/clash-of-clans.js"></script>
-  <script src="https://telegram.org/js/telegram-web-app.js"></script>
-  <script src="../js/tg-send.js"></script>
 </body>

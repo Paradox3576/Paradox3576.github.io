@@ -18,14 +18,8 @@
 
   <h1 class="mb-2 mt-3" style="font-size: 40px;">Clash Royale</h1>
   <div class="links mb-4">
-    <a href="#promotions" type="button" class="btn rounded-pill text-light bg-dark p-3">Акции</a>
     <a href="#pass-royale" type="button" class="btn rounded-pill text-light bg-dark p-3">Pass Royale</a>
     <a href="#crystals" type="button" class="btn rounded-pill text-light bg-dark p-3">Кристаллы</a>
-  </div>
-
-  <h3 class="mb-3 mt-3" id="promotions">Акции</h3>
-  <div class="row promotions ps-1">
-
   </div>
 
   <h3 class="mb-3 mt-3" id="pass-royale">Pass Royale</h3>
@@ -82,9 +76,9 @@
         showModal(card, "❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Работает для всех аккаунтов");
       });
     });
+
+    function sendData() {
+      alert(JSON.stringify(modalData));
+    }
   </script>
-    <script src="../js/create-promotion.js"></script>
-    <script src="../js/promotions/clash-royale.js"></script>
-  <script src="https://telegram.org/js/telegram-web-app.js"></script>
-  <script src="../js/tg-send.js"></script>
 </body>
