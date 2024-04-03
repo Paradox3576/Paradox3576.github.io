@@ -18,9 +18,16 @@
 
     <h1 class="mb-2 mt-3" style="font-size: 40px;">Brawl Stars</h1>
     <div class="links mb-4">
+        <a href="#promotions" type="button" class="btn rounded-pill text-light bg-dark p-3">Акции</a>
         <a href="#brawl-pass" type="button" class="btn rounded-pill text-light bg-dark p-3">Brawl Pass</a>
         <a href="#gems" type="button" class="btn rounded-pill text-light bg-dark p-3">Гемы</a>
     </div>
+
+    <h3 class="mb-3 mt-3" id="promotions">Акции</h3>
+    <div class="row promotions ps-1">
+  
+    </div>
+
     <h3 class="mb-3 mt-3" id="brawl-pass">Brawl Pass</h3>
     <div class="row brawl-pass ps-1">
         <div class="col-6">
@@ -76,7 +83,7 @@
     <script src="../js/append-card.js"></script>
     <script>
         const gems = [30, 80, 170, 360, 950, 2000];
-        const price = [245, 5449, 1149, 2149, 5249, 9749];
+        const price = [250, 549, 1149, 2149, 5249, 9749];
         let i = 0;
         gems.forEach(() => {
             appendCard(`../images/games/brawl-stars/gems/${gems[i]}.jpeg`, price[i], `${gems[i]} Гемов`, ["gems"]);
@@ -94,14 +101,14 @@
             showModal(document.getElementById('card1'), "❇️ Для улучшения до Brawl Pass Plus необходимо чтобы на аккаунте был куплен обычный Brawl Pass\n❇️ Покупка через официальный магазин\n❇️ Работает для всех аккаунтов");
         });
         document.getElementById('card2').addEventListener('click', () => {
-            showModal(document.getElementById('card1'), "❇️ Покупка через официальный магазин\n❇️ Работает для всех аккаунтов");
+            showModal(document.getElementById('card2'), "❇️ Покупка через официальный магазин\n❇️ Работает для всех аккаунтов");
         });
         document.getElementById('card3').addEventListener('click', () => {
-            showModal(document.getElementById('card1'), "❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Работает для всех аккаунтов");
+            showModal(document.getElementById('card3'), "❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Работает для всех аккаунтов");
         });
-
-        function sendData() {
-            alert(JSON.stringify(modalData));
-        }
     </script>
+    <script src="../js/create-promotion.js"></script>
+    <script src="../js/promotions/brawl-stars.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="../js/tg-send.js"></script>
 </body>
