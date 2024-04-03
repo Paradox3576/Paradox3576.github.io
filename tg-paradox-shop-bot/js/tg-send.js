@@ -6,3 +6,9 @@ function sendData() {
         data: modalData
     }));
 }
+var BackButton = tg.BackButton;
+BackButton.show();
+BackButton.onClick(function() {
+    window.history.back();
+    BackButton.hide();
+});
