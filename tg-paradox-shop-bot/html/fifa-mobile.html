@@ -46,7 +46,7 @@
         const price = [190, 580, 1150, 2200, 4950, 9700];
         let i = 0;
         fifaPoints.forEach(() => {
-            appendCard(`../images/games/fifa-mobile/fifa-points/${fifaPoints[i]}.jpeg`, price[i], `${fifaPoints[i]} Fifa-Points`, ["fifa-points"]);
+            appendCard(`../images/games/fifa-mobile/fifa-points/${fifaPoints[i]}.jpeg`, price[i], `${fifaPoints[i]} Гемов`, ["fifa-points"]);
             i += 1;
         });
 
@@ -56,9 +56,7 @@
                 showModal(card, "❇️ Быстрое выполнение заказа\n❇️ От вас потребуется только данные от Facebook\n❇️ Работает для всех аккаунтов");
             });
         });
-
-        function sendData() {
-            alert(JSON.stringify(modalData));
-        }
     </script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="../js/tg-send.js"></script>
 </body>
