@@ -18,7 +18,12 @@
 
     <h1 class="mb-2 mt-3" style="font-size: 40px;">Blockman Go</h1>
     <div class="links mb-4">
-        <a href="#cubes" type="button" class="btn rounded-pill text-light bg-dark p-3">G-Cubes</a>
+        <a href="#cubes" type="button" class="btn rounded-pill text-light bg-dark p-3">Fifa Points</a>
+    </div>
+
+    <h3 class="mb-3 mt-3" id="promotions">Акции</h3>
+    <div class="row cubes ps-1">
+
     </div>
 
     <h3 class="mb-3 mt-3" id="cubes">Cubes</h3>
@@ -43,22 +48,19 @@
     <script src="../js/append-card.js"></script>
     <script>
         const cubes = [60, 300, 600, 1650, 3600, 8400];
-        const price = [70, 255, 399, 999, 1849, 3549];
+        const price = [80, 315, 550, 1075, 2100, 4050];
         let i = 0;
         cubes.forEach(() => {
-            appendCard(`../images/games/blockman-go/cubes/${cubes[i]}.jpeg`, price[i], `${cubes[i]} Кубы`, ["cubes"]);
+            appendCard(`../images/games/blockman-go/cubes/${cubes[i]}.jpeg`, price[i], `${cubes[i]} G-Cubes`, ["cubes"]);
             i += 1;
         });
-
 
         [...document.querySelector(".cubes").querySelectorAll(".card")].forEach(function (card) {
             card.addEventListener('click', function (event) {
                 showModal(card, "❇️ Быстрое выполнение заказа\n❇️ От вас потребуется только Id и пароль\n❇️ Работает для всех аккаунтов");
             });
         });
-
-        function sendData() {
-            alert(JSON.stringify(modalData));
-        }
     </script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="../js/tg-send.js"></script>
 </body>
