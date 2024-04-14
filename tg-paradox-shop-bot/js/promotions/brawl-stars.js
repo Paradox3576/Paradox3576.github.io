@@ -2,4 +2,4 @@ createPromotion(0, `../images/games/brawl-stars/promotions/photo_2024-04-04_18-3
 createPromotion(1, `../images/games/brawl-stars/promotions/photo_2024-04-04_16-05-01.jpg`, 1999, `Новый Боец "Мелоди"`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(2, `../images/games/brawl-stars/promotions/photo_2024-04-14 11.46.03.jpeg`, 225, `Значок "Какашка"`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(3, `../images/games/brawl-stars/promotions/photo_2024-04-14 11.55.22.jpeg`, 225, `Значок "Красная Рука"`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
-createPromotion(4, `../images/games/brawl-stars/promotions/photo_2024-04-14 11.46.03.jpeg`, 225, `2 Значка`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(4, `../images/games/brawl-stars/promotions/photo_2024-04-14 11.55.27.jpeg`, 225, `2 Значка`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
