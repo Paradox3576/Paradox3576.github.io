@@ -16,13 +16,13 @@
         </div>
     </nav>
 
-    <h1 class="mb-2 mt-3" style="font-size: 40px;">Roblox</h1>
+    <h1 class="mb-2 mt-3" style="font-size: 40px;">World of Tanks</h1>
     <div class="links mb-4">
-        <a href="#robux" type="button" class="btn rounded-pill text-light bg-dark p-3">Robux</a>
+        <a href="#golds" type="button" class="btn rounded-pill text-light bg-dark p-3">Golds</a>
     </div>
 
-    <h3 class="mb-3 mt-3" id="robux">Robux</h3>
-    <div class="row robux ps-1">
+    <h3 class="mb-3 mt-3" id="golds">Golds</h3>
+    <div class="row golds ps-1">
 
     </div>
 
@@ -42,18 +42,18 @@
     <script src="../js/modal-window.js"></script>
     <script src="../js/append-card.js"></script>
     <script>
-        const robux = [40, 80, 400, 800, 1700, 4500, 10000, 22500]; 
-        const price = [100, 149, 575, 999, 1875, 4499, 9749, 16999]; 
-        let i = 0; 
-        robux.forEach(() => {
-            appendCard(`../images/games/roblox/robux/${robux[i]}.jpeg`, price[i], ${robux[i]} Роблоксов, ["robux"]);
+        const golds = [250, 1500, 3250, 8500, 17500, 27000, 37500];
+        const price = [140, 349, 599, 1299, 2499, 3799, 5099];
+        let i = 0;
+        golds.forEach(() => {
+            appendCard(`../images/games/world-of-tanks/golds/${golds[i]}.jpeg`, price[i], `${golds[i]} Золота`, ["golds"]);
             i += 1;
         });
 
 
-        [...document.querySelector(".gems").querySelectorAll(".card")].forEach(function (card) {
+        [...document.querySelector(".golds").querySelectorAll(".card")].forEach(function (card) {
             card.addEventListener('click', function (event) {
-                showModal(card, "❇️ Быстрое выполнение заказа\n❇️ От вас потребуется только ник\n❇️ Работает для всех аккаунтов");
+                showModal(card, "❇️ Быстрое выполнение заказа\n❇️ От вас потребуется только почта и пароль от World of Tanks\n❇️ Работает только для Евро сервера");
             });
         });
     </script>
