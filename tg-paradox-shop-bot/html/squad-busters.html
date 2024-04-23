@@ -61,8 +61,8 @@
         </div>
     </div>
 
-    <h3 class="mb-3 mt-3" id="gems">Гемы</h3>
-    <div class="row gems ps-1">
+    <h3 class="mb-3 mt-3" id="momets">Монеты</h3>
+    <div class="row monets ps-1">
 
     </div>
 
@@ -82,16 +82,16 @@
     <script src="../js/modal-window.js"></script>
     <script src="../js/append-card.js"></script>
     <script>
-        const gems = [10000, 52500, 110000, 230000, 600000, 1250000];
+        const monets = [10000, 52500, 110000, 230000, 600000, 1250000];
         const price = [249, 575, 1149, 2175, 4999, 9499];
         let i = 0;
-        gems.forEach(() => {
-            appendCard(`../images/games/squad-busters/monets/${monets[i]}.jpeg`, price[i], `${monets[i]} Гемов`, ["gems"]);
+        monets.forEach(() => {
+            appendCard(`../images/games/squad-busters/monets/${monets[i]}.jpeg`, price[i], `${monets[i]} Гемов`, ["monets"]);
             i += 1;
         });
 
 
-        [...document.querySelector(".gems").querySelectorAll(".card")].forEach(function (card) {
+        [...document.querySelector(".monets").querySelectorAll(".card")].forEach(function (card) {
             card.addEventListener('click', function (event) {
                 showModal(card, "❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Работает для всех аккаунтов");
             });
