@@ -16,7 +16,7 @@
         </div>
     </nav>
 
-    <h1 class="mb-2 mt-3" style="font-size: 40px;">Brawl Stars</h1>
+    <h1 class="mb-2 mt-3" style="font-size: 40px;">Squad Busters</h1>
     <div class="links mb-4">
         <a href="#promotions" type="button" class="btn rounded-pill text-light bg-dark p-3">Акции</a>
         <a href="#brawl-pass" type="button" class="btn rounded-pill text-light bg-dark p-3">Brawl Pass</a>
@@ -82,11 +82,11 @@
     <script src="../js/modal-window.js"></script>
     <script src="../js/append-card.js"></script>
     <script>
-        const gems = [30, 80, 170, 360, 950, 2000];
+        const gems = [10000, 52500, 110000, 230000, 600000, 1250000];
         const price = [249, 575, 1149, 2175, 4999, 9499];
         let i = 0;
         gems.forEach(() => {
-            appendCard(`../images/games/brawl-stars/gems/${gems[i]}.jpeg`, price[i], `${gems[i]} Гемов`, ["gems"]);
+            appendCard(`../images/games/squad-busters/monets/${monets[i]}.jpeg`, price[i], `${monets[i]} Гемов`, ["gems"]);
             i += 1;
         });
 
