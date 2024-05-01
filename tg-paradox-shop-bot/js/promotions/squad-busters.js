@@ -4,3 +4,4 @@ createPromotion(2, `../images/games/squad-busters/Promotions/IMG_5828.jpeg`, 999
 createPromotion(3, `../images/games/squad-busters/Promotions/IMG_6046.jpeg`, 1399, `Акция Дня | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(4, `../images/games/squad-busters/Promotions/IMG_6047.jpeg`, 699, `Акция Дня | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(5, `../images/games/squad-busters/Promotions/IMG_6048.jpeg`, 1399, `Добро пожаловать в Королевский Мир`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(6, `../images/games/squad-busters/Promotions/IMG_6048.jpeg`, 1399, `Добро пожаловать в Королевский Мир`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
