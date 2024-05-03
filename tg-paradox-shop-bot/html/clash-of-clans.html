@@ -18,9 +18,9 @@
 
   <h1 class="mb-2 mt-3" style="font-size: 40px;">Clash of Clans</h1>
   <div class="links mb-4">
-    <a href="#promotions" type="button" class="btn rounded-pill text-light bg-dark p-3">Акции</a>
-    <a href="#passes" type="button" class="btn rounded-pill text-light bg-dark p-3">Пассы</a>
-    <a href="#crystals" type="button" class="btn rounded-pill text-light bg-dark p-3">Кристаллы</a>
+    <button onclick="scrollToElement('#promotions')" type="button" class="btn rounded-pill text-light bg-dark p-3">Акции</button>
+    <button onclick="scrollToElement('#passes')" type="button" class="btn rounded-pill text-light bg-dark p-3">Пассы</button>
+    <button onclick="scrollToElement('#crystals')" type="button" class="btn rounded-pill text-light bg-dark p-3">Кристаллы</button>
   </div>
 
   <h3 class="mb-3 mt-3" id="promotions">Акции</h3>
@@ -51,6 +51,7 @@
     </div>
   </div>
 
+  <script src="../js/scrollToElement.js"></script>
   <script src="../js/modal-window.js"></script>
   <script src="../js/append-card.js"></script>
   <script>
