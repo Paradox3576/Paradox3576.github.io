@@ -7,4 +7,4 @@ createPromotion(5, `../images/games/clash-of-clans/promotions/IMG_5808.png`, 425
 createPromotion(6, `../images/games/clash-of-clans/promotions/IMG_5809.png`, 599, `1000 Гемов + Хижина Строителя`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(7, `../images/games/clash-of-clans/promotions/IMG_5810.png`, 1149, `2000 Гемов + Хижина Строителя`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(8, `../images/games/clash-of-clans/promotions/IMG_6474.jpeg`, 199, `Начальный Набор`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
-createPromotion(9 `../images/games/clash-of-clans/promotions/FDB1DB13-B0F6-4CE1-9CCE-F178155E4246.jpeg`, 599, `Набор Ратуши 5`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(9, `../images/games/clash-of-clans/promotions/FDB1DB13-B0F6-4CE1-9CCE-F178155E4246.jpeg`, 599, `Набор Ратуши 5`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
