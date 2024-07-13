@@ -1,1 +1,3 @@
 createPromotion(0, `../images/games/brawl-stars/Promotions/IMG_8547.jpeg`, 369, `Brawl Pass По Скидке | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(1, `../images/games/brawl-stars/Promotions/IMG_9052.jpeg`, 249, `2 Значка`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(2, `../images/games/brawl-stars/Promotions/IMG_9053.jpeg`, 249, `Значок + Иконка`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
