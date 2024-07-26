@@ -7,3 +7,4 @@ createPromotion(5, `../images/games/clash-of-clans/promotions/IMG_6474.jpeg`, 19
 createPromotion(6, `../images/games/clash-of-clans/promotions/FDB1DB13-B0F6-4CE1-9CCE-F178155E4246.jpeg`, 599, `Набор Ратуши 5`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(7, `../images/games/clash-of-clans/promotions/IMG_7265.jpeg`, 799, `Набор Ратуши 7`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(8, `../images/games/clash-of-clans/promotions/IMG_9049.jpeg`, 575, `Гоблинский Бассейн | Украшение`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(9, `../images/games/clash-of-clans/promotions/IMG_9293.jpeg`, 425, `Уровень Силы | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
