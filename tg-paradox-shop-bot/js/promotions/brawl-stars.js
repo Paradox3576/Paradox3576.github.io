@@ -3,4 +3,4 @@ createPromotion(1, `../images/games/brawl-stars/Promotions/IMG_9384.jpeg`, 549, 
 createPromotion(2, `../images/games/brawl-stars/Promotions/IMG_9854.jpeg`, 175, `3000 Блингов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(3, `../images/games/brawl-stars/Promotions/IMG_9900.jpeg`, 1049, `Боец Честер | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(4, `../images/games/brawl-stars/Promotions/IMG_9901.jpeg`, 175, `Лесной Дух Честер | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
-createPromotion(5, `../images/games/brawl-stars/Promotions/IMG_9902.jpeg`, 275, `950 Кредитов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(5, `../images/games/brawl-stars/Promotions/IMG_9902.jpeg`, 225, `950 Кредитов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
