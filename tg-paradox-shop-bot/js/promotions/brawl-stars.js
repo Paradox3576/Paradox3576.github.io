@@ -5,4 +5,4 @@ createPromotion(3, `../images/games/brawl-stars/Promotions/IMG_1145.png`, 249, `
 createPromotion(4, `../images/games/brawl-stars/Promotions/IMG_1151.png`, 249, `Боец Хэнк`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(5, `../images/games/brawl-stars/Promotions/IMG_1152.png`, 349, `Гиперзаряд "Притягивающий Прыжок"`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(6, `../images/games/brawl-stars/Promotions/IMG_1153.png`, 349, `Гиперзаряд "В своей Стихии"`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
-createPromotion(7, `../images/games/brawl-stars/Promotions/IMG_1154.png`, 349, `1500 Кредитов`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(7, `../images/games/brawl-stars/Promotions/IMG_1184.png`, 349, `1500 Кредитов`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
