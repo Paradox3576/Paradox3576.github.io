@@ -8,3 +8,4 @@ createPromotion(6, `../images/games/clash-of-clans/promotions/FDB1DB13-B0F6-4CE1
 createPromotion(7, `../images/games/clash-of-clans/promotions/IMG_7265.jpeg`, 799, `Набор Ратуши 7`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(8, `../images/games/clash-of-clans/promotions/IMG_9617.jpeg`, 449, `Особая Летняя Акция`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(9, `../images/games/clash-of-clans/promotions/IMG_9512.jpeg`, 1099, `Набор Ратуши 10`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(10, `../images/games/clash-of-clans/promotions/IMG_1200.jpeg`, 349, `Мини пропуск события`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
