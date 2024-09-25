@@ -2,3 +2,5 @@ createPromotion(0, `../images/games/brawl-stars/Promotions/IMG_0647.png`, 549, `
 createPromotion(1, `../images/games/brawl-stars/Promotions/IMG_1491.png`, 549, `Цепочка Монет | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(2, `../images/games/brawl-stars/Promotions/IMG_1607.png`, 175, `Скин "Дарума Мистер Пи" | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(3, `../images/games/brawl-stars/Promotions/IMG_1608.png`, 1999, `4000 Кредитов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(4, `../images/games/brawl-stars/Promotions/IMG_1491.png`, 249, `180 Гемов | Проверяйте Наличие `, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(5, `../images/games/brawl-stars/Promotions/IMG_1607.png`, 249, `200 Гемов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
