@@ -2,3 +2,4 @@ createPromotion(0, `../images/games/brawl-stars/Promotions/IMG_0647.png`, 549, `
 createPromotion(1, `../images/games/brawl-stars/Promotions/IMG_1637.png`, 2449, `Боец Кэндзи | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(2, `../images/games/brawl-stars/Promotions/IMG_1720.png`, 999, `Набор Фанат Фэнг + 170 Гемов + Очки силы и монеты" | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(3, `../images/games/brawl-stars/Promotions/IMG_1721.png`, 275, `Набор Золотая Нэко Беа | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(4, `../images/games/brawl-stars/Promotions/IMG_1724.png`, 175, `Нэко Беа | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
