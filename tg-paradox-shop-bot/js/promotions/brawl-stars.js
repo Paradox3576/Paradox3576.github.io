@@ -4,4 +4,4 @@ createPromotion(2, `../images/games/brawl-stars/Promotions/IMG_1300.png`, 549, `
 createPromotion(3, `../images/games/brawl-stars/Promotions/IMG_1302.png`, 999, `190 Гемов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(4, `../images/games/brawl-stars/Promotions/IMG_1304.png`, 1999, `385 Гемов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(5, `../images/games/brawl-stars/Promotions/IMG_1305.png`, 4599, `1045 Гемов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
-createPromotion(6, `../images/games/brawl-stars/Promotions/IMG_1724.png`, 9199, `2200 Гемов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(6, `../images/games/brawl-stars/Promotions/IMG_1339.png`, 9199, `2200 Гемов | Проверяйте Наличие`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
