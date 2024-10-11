@@ -10,3 +10,6 @@ createPromotion(8, `../images/games/brawl-stars/Promotions/IMG_2211.png`, 999, `
 createPromotion(9, `../images/games/brawl-stars/Promotions/IMG_2212.png`, 849, `Баззтрик | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(10, `../images/games/brawl-stars/Promotions/IMG_2213.png`, 849, `Планктон Дэррил | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
 createPromotion(11, `../images/games/brawl-stars/Promotions/IMG_2214.png`, 849, `Сквидвортис | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(12, `../images/games/brawl-stars/Promotions/IMG_2215.png`, 749, `Розовый Сквидвортис | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(13, `../images/games/brawl-stars/Promotions/IMG_2216.png`, 749, `Голубой Сквидвортис | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
+createPromotion(14, `../images/games/brawl-stars/Promotions/IMG_2217.png`, 465, `Джессэнди | По Входу`, `❇️ Быстрое выполнение заказа\n❇️ Покупка через официальный магазин\n❇️ Проверяйте наличие Акции`);
